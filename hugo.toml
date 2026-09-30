@@ -1,0 +1,22 @@
+baseURL = "http://localhost:1313/"
+languageCode = "en-us"
+title = "Gabriel Cloud Infrastructure and Adoption Hub"
+
+[params]
+  description = "Notes on electronics, embedded systems and learning new tools."
+  author = "Gabriel Armas"
+
+[[menus.main]]
+  name = "Home"
+  pageRef = "/"
+  weight = 10
+
+[[menus.main]]
+  name = "Posts"
+  pageRef = "/posts"
+  weight = 20
+
+[[menus.main]]
+  name = "About"
+  pageRef = "/about"
+  weight = 30
