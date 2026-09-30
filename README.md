@@ -23,7 +23,8 @@ Check the installation with `hugo version`.
 ## Run the website locally
 
 ```bash
-git clone https://github.com/gabo4armas/hugo-site.gitcd hugo-site
+git clone https://github.com/gabo4armas/hugo-site.git
+cd hugo-site
 hugo server
 ```
 

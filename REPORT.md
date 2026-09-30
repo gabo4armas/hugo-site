@@ -21,7 +21,7 @@ latest posts), `single.html` (pages/posts), `list.html` (posts listing), and
   - The initial build warned that no layout was found to render the home page, so I implemented `layouts/index.html` and proper `_default` fallbacks, ensuring Hugo's lookup order resolves root and section content.
 
 * **Draft and Future Date Filtering:**
-  - One of the blog posts did not render when running the local server. Using Claude AI, I identified that Hugo automatically ignores future dated content or posts with `draft: true`[cite: 1]. Corrected the front matter metadata (`draft: false` and current timestamp) to ensure standard visibility.
+  - One of the blog posts did not render when running the local server. Using Claude AI, I identified that Hugo automatically ignores future dated content or posts with `draft: true`. Corrected the front matter metadata (`draft: false` and current timestamp) to ensure standard visibility.
 
 ## How I verified it works
 
